@@ -1,12 +1,16 @@
-# Block Blast
+<div align='center'>
+  
+# Block Blast 
 
-> A Python/Tkinter implementation of the Block Blast puzzle game — playable by
-> a human or watched as an intelligent bot solves the board autonomously.
+A Python/Tkinter implementation of the Block Blast puzzle game — playable by
+a human or watched as an intelligent bot solves the board autonomously.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![Tkinter](https://img.shields.io/badge/UI-Tkinter-informational)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
+
+</div>
 
 ---
 
@@ -47,14 +51,14 @@ This implementation ships with **two modes**:
 
 ## Features
 
-- ✅ 12 distinct block shapes (1 × 1 through 4-cell polyominoes, S/Z/L/J)
-- ✅ Ghost-preview system showing exactly where a block will land
-- ✅ Visual selection highlight on the active block slot
-- ✅ Row **and** column clearing with combo scoring
-- ✅ Autonomous bot with a configurable play speed (0.1 s → 2.0 s per move)
-- ✅ Non-blocking UI — all bot animations use Tkinter's `after()` scheduler; no `time.sleep()`, no extra threads
-- ✅ Clean restart in both modes with persistent per-session statistics
-- ✅ Console logging of every bot decision for post-game analysis
+- 12 distinct block shapes (1 × 1 through 4-cell polyominoes, S/Z/L/J)
+- Ghost-preview system showing exactly where a block will land
+- Visual selection highlight on the active block slot
+- Row **and** column clearing with combo scoring
+- Autonomous bot with a configurable play speed (0.1 s → 2.0 s per move)
+- Non-blocking UI — all bot animations use Tkinter's `after()` scheduler; no `time.sleep()`, no extra threads
+- Clean restart in both modes with persistent per-session statistics
+- Console logging of every bot decision for post-game analysis
 
 ---
 
@@ -348,11 +352,6 @@ Contributions are welcome.  Please follow these steps:
 
 ---
 
-## License
-
-MIT License.  See `LICENSE` for full text.
-
----
 
 ## Credits
 
